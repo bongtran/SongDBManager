@@ -251,5 +251,10 @@ namespace SongsDB
         {
             loadDB();
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            GoogleDrive.demo();
+        }
     }
 }
